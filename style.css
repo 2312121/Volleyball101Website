@@ -1,3 +1,30 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+
 body {
     background-color: #E3DAC9;
 }
@@ -12,30 +39,25 @@ body {
     position: absolute;
     color: #AA5939;
     text-align: center;
-    top: 40px;
+    top: 30px;
     width: 100%;
-    font-size: 60px
+    font-size: 100px
 }
-.button-text1 {
-    background-color: #CCC9C9;
-    margin-right: auto;
-    color: #AA8E39;
+.button-text {
+    color: #AA8E39; 
     font-size: 50px;
     text-align: center;
-    width: auto
 }
-.button-text2 {
+.button-background {
     background-color: #CCC9C9;
-    margin-right: auto;
-    color: #AA8E39;
-    font-size: 50px;
-    text-align: center;
-    width: auto
+    margin-bottom: 100px;
+    height: 150px
 }
 .two-column {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-    width: auto;
+    grid-template-columns: 2fr 2fr;
+    gap: 50px;
+    width: 60%;
     margin: auto;
+    margin-top: 40px; 
 }
