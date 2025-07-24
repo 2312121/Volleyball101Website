@@ -1,0 +1,41 @@
+body {
+    background-color: #E3DAC9;
+}
+.topper {
+    background-color: #C8B38C;
+    height: 175px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topper-text {
+    position: absolute;
+    color: #AA5939;
+    text-align: center;
+    top: 40px;
+    width: 100%;
+    font-size: 60px
+}
+.button-text1 {
+    background-color: #CCC9C9;
+    margin-right: auto;
+    color: #AA8E39;
+    font-size: 50px;
+    text-align: center;
+    width: auto
+}
+.button-text2 {
+    background-color: #CCC9C9;
+    margin-right: auto;
+    color: #AA8E39;
+    font-size: 50px;
+    text-align: center;
+    width: auto
+}
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: auto;
+    margin: auto;
+}
