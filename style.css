@@ -70,6 +70,32 @@ body {
 a {
   text-decoration: none;
 }
+
+
 p {
   margin-top: 20px;
+}
+.position-text {
+  color: #AA8E39; 
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 135px; 
+}
+.position-background {
+  background-color: #CCC9C9;
+  margin-bottom: 200px;
+  height: 150px;
+  margin-top: 500px;
+}
+.background-color {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  color: #CCC9C9;
+  gap: 70px;
+  width: 60%;
+  margin: auto;
+  margin-top: 40px; 
 }
