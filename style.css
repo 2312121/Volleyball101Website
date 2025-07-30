@@ -54,10 +54,11 @@ body {
     align-items: center;
     height: 135px; 
 }
-.button-background {
+.button-background{
     background-color: #CCC9C9;
     margin-bottom: 100px;
-    height: 150px
+    height: 150px;
+    transition: 0.5s;
 }
 .two-column {
     display: grid;
@@ -86,16 +87,28 @@ p {
 }
 .position-background {
   background-color: #CCC9C9;
-  margin-bottom: 200px;
+  margin-bottom: 500px;
   height: 150px;
-  margin-top: 500px;
 }
 .background-color {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
   color: #CCC9C9;
   gap: 70px;
-  width: 60%;
+  width: 80%;
   margin: auto;
   margin-top: 40px; 
+}
+.two-column-position {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 70px;
+  width: 60%;
+  margin: 10%;
+  margin-top: 40px; 
+}
+.position-text {
+  font-size: 20px;
+  margin: 20px;
+}
+.button-background:hover {
+  box-shadow: 10px 12px 0 #226666
 }
