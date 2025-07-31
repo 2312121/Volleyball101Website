@@ -46,7 +46,7 @@ body {
     font-size: 100px
 }
 .button-text {
-    color: #AA8E39; 
+    color: #616E85; 
     font-size: 50px;
     text-align: center;
     display: flex;
@@ -55,10 +55,13 @@ body {
     height: 135px; 
 }
 .button-background{
-    background-color: #CCC9C9;
-    margin-bottom: 100px;
+    background-color: #C6C5C9;
+    margin-bottom: 65px;
     height: 150px;
-    transition: 0.5s;
+    transition: 0.4s;
+}
+.button-background:hover {
+  box-shadow: 10px 12px 0 #577C78
 }
 .two-column {
     display: grid;
@@ -108,7 +111,4 @@ p {
 .position-text {
   font-size: 20px;
   margin: 20px;
-}
-.button-background:hover {
-  box-shadow: 10px 12px 0 #226666
 }
