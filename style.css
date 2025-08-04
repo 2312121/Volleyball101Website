@@ -56,7 +56,6 @@ body {
 }
 .button-background{
     background-color: #C6C5C9;
-    margin-bottom: 65px;
     height: 150px;
     transition: 0.4s;
 }
@@ -66,10 +65,11 @@ body {
 .two-column {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    gap: 70px;
-    width: 60%;
+    gap: 100px;
+    width: 55%;
     margin: auto;
     margin-top: 40px; 
+    margin-bottom: 85px;
 }
 a {
   text-decoration: none;
@@ -90,7 +90,7 @@ p {
 }
 .position-background {
   background-color: #CCC9C9;
-  margin-bottom: 500px;
+  margin-bottom: 350px;
   height: 150px;
 }
 .background-color {
