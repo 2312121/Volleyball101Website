@@ -80,7 +80,7 @@ p {
   margin-top: 20px;
 }
 .position-text {
-  color: #AA8E39; 
+  color: #474747; 
   font-size: 50px;
   text-align: center;
   display: flex;
@@ -103,8 +103,8 @@ p {
 .two-column-position {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  gap: 70px;
-  width: 60%;
+  gap: 100px;
+  width: 55%;
   margin: 10%;
   margin-top: 40px; 
 }
