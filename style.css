@@ -80,18 +80,18 @@ a {
   color: #474747; 
   font-size: 30px;
   text-align: center;
-  justify-content: center; 
   align-items: center; 
   margin: 60px;
 }
 .position-text p {
   padding-top:30px;
   font-size: 35px;
+  padding-bottom: 50px;
 }
 .position-background {
   background-color: #CCC9C9;
-  margin-bottom: 350px;
-  height: 500px;
+  margin-bottom: 50px;
+  
 }
 .background-color {
   color: #CCC9C9;
@@ -107,4 +107,9 @@ a {
   width: 55%;
   margin: 10%;
   margin-top: 40px; 
+}
+img {
+  margin-left: 193px;
+  height: 400px;
+  margin-bottom: 50px;
 }
