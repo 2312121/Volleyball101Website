@@ -76,6 +76,18 @@ a {
   text-decoration: none;
 }
 
+.Basic-Rules-text {
+  color: #474747; 
+  font-size: 30px;
+  margin: 60px;
+}
+.Basic-Rules-text p {
+  padding-top:30px;
+  font-size: 35px;
+  padding-bottom: 50px;
+  line-height: 45px
+}
+
 .position-text {
   color: #474747; 
   font-size: 30px;
