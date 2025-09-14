@@ -47,22 +47,41 @@ body {
     font-family:'Times New Roman', Times, serif
 }
 .button-text {
-    color: #616E85; 
+    color: #ffffff; 
     font-size: 50px;
     text-align: center;
-    display: flex;
     justify-content: center; 
     align-items: center;
-    height: 135px; 
     font-family:'Times New Roman', Times, serif;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
 }
 .button-background{
-    background-color: #C6C5C9;
-    height: 150px;
-    transition: 0.4s;
+  transition: 0.4s;
+  width: 358px;
+  height: 135px;
+  position: relative;
+  text-align: center;
+}
+.button-background img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+.home-button-background{
+  transition: 0.4s;
+}
+.home-button-background:hover {
+  box-shadow: 10px 12px 0 #577C78;
+  object-fit: cover;
 }
 .button-background:hover {
-  box-shadow: 10px 12px 0 #577C78
+  box-shadow: 10px 12px 0 #577C78;
+  object-fit: cover;
 }
 .two-column {
     display: grid;
@@ -121,10 +140,22 @@ a {
   margin: 10%;
   margin-top: 40px; 
 }
+.home-button-text{
+  color: #616E85; 
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 135px; 
+  font-family:'Times New Roman', Times, serif;
+  background-color: #CCC9C9;
+}
 img {
   margin: auto;
-  height: 400px;
-  margin-bottom: 30px;
+  object-fit: cover;
+  width: 358px;
+  height: 135px;
 }
 .two-column-image {
   display: grid;
@@ -132,4 +163,6 @@ img {
   gap: 100px;
   margin-left: 10%;
   margin-right: 10%; 
+  height: 400px;
+  margin-bottom: 30px;
 }
